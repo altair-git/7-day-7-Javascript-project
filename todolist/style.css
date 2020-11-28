@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: wheat;
+}
+div.container {
+  border: 1px solid whitesmoke;
+  width: 27%;
+  margin: 60px auto 0;
+  position: relative;
+  height: 90vh;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+input[type="text"] {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  padding: 0.8em;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 70%;
+  font-weight: bold;
+  color: black;
+  outline: none;
+}
+div.content {
+  width: 95%;
+  margin: 0.7em 1em 0;
+}
+li {
+  list-style-type: none;
+  width: 100%;
+  padding: 0.2em;
+
+  position: relative;
+}
+p {
+  display: inline;
+  margin-left: 1.1em;
+  font-size: 2em;
+}
+/* --------font-awesomeicon------ */
+.fa-sync-alt {
+  position: absolute;
+  font-size: 1.5em;
+  color: rebeccapurple;
+  top: 5px;
+  right: 5px;
+}
+
+.fa-plus {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 10px 10px;
+  font-size: 30px;
+  border: 1px solid aqua;
+  border-radius: 50%;
+  color: aqua;
+}
+.fa-trash-alt {
+  position: absolute;
+  right: 0;
+  margin-right: 0.6em;
+  font-size: 1.3em;
+  top: 12px;
+  color: rebeccapurple;
+}
+.far {
+  position: absolute;
+  left: 0;
+  top: 11px;
+  margin-right: 0.6em;
+  font-size: 1.3em;
+  color: rebeccapurple;
+}
+
+.line-through {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
