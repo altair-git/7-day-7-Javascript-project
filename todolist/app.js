@@ -19,7 +19,14 @@ input.addEventListener("change", (e) => {
 });
 // -------------------------refresh/removing everything----------------
 refresh.addEventListener("click", (e) => {
-  ul.remove();
+  ul.innerHTML = "";
+
+  // for (let value of values) {
+  //   console.log(ul.childNodes[value]);
+  //   ul.childNodes.nodel.remove();
+  // }
+  // ul.children[0].remove();
+  // ul.childNodes.remove();
 });
 
 ///--------------------------using event delegation ------------------------
